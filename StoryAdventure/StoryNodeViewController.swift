@@ -43,8 +43,16 @@ class StoryNodeViewController: UIViewController, UITableViewDelegate, UITableVie
     
     // MARK: Table Placeholder Implementation
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //TODO: Implement to push the next story node.
+        // Implement to push the next story node.
         
+        // Get a StoryNodeController from the Storyboard
+        let storyNodeController = self.storyboard!.instantiateViewController(withIdentifier: "StoryNodeViewController")as! StoryNodeViewController
+        
+        // Set the story node to the index node
+        storyNodeController.storyNode = storyNode.storyNodeForIndex(index: (indexPath as NSIndexPath).row)
+        
+        // Push the new controller onto the stack
+        self.navigationController!.pushViewController(storyNodeController, animated: true)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
