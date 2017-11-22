@@ -1,8 +1,8 @@
 # StoryAdventure
 
 
-![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-20at19.28.34x.png)
-![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-20at19.28.47x.png)
+![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-21at19.54.57.png)
+![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-21at19.55.02.png)
 
 
 StoryAdventure is an iOS sample application that tells some stories and let the user choose an action using navigation.
