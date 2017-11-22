@@ -38,7 +38,7 @@ class Adventure {
         }
         
         // Set the first node
-        let startNodeKey = dictionary["startNodeKey"]as! String
+        let startNodeKey = dictionary["startNodeKey"] as! String
         startNode = storyNodes[startNodeKey]!
     }
 }

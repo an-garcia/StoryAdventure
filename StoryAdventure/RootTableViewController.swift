@@ -11,13 +11,13 @@ import UIKit
 // MARK: - RootTableViewController: UITableViewController
 class RootTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    @IBOutlet weak var tableView: UITableView!
     // MARK: Properties
+    @IBOutlet weak var tableView: UITableView!
     
     var adventures = [Adventure]()
     
-    // MARK: Life Cycle
     
+    // MARK: Life Cycle
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -40,6 +40,8 @@ class RootTableViewController: UIViewController, UITableViewDataSource, UITableV
         self.tableView.reloadData()
     }
     
+    
+    
     // MARK: UITableViewController
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -47,7 +49,6 @@ class RootTableViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "Cell")!
         let adventure = adventures[(indexPath as NSIndexPath).row]
         cell.textLabel!.text = adventure.credits.title
