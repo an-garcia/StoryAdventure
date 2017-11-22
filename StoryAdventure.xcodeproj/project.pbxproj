@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		82BACB541FC4EA320004CFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB531FC4EA320004CFDA /* AppDelegate.swift */; };
-		82BACB561FC4EA320004CFDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB551FC4EA320004CFDA /* ViewController.swift */; };
+		82BACB561FC4EA320004CFDA /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB551FC4EA320004CFDA /* RootTableViewController.swift */; };
 		82BACB591FC4EA320004CFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB571FC4EA320004CFDA /* Main.storyboard */; };
 		82BACB5B1FC4EA320004CFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB5A1FC4EA320004CFDA /* Assets.xcassets */; };
-		82BACB5E1FC4EA320004CFDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB5C1FC4EA320004CFDA /* LaunchScreen.storyboard */; };
+		82BACB691FC4ED190004CFDA /* Harp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB651FC4ED190004CFDA /* Harp.plist */; };
+		82BACB6A1FC4ED190004CFDA /* Tiger.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB661FC4ED190004CFDA /* Tiger.plist */; };
+		82BACB6B1FC4ED190004CFDA /* Stranger.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB671FC4ED190004CFDA /* Stranger.plist */; };
+		82BACB6C1FC4ED190004CFDA /* HauntedHouse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB681FC4ED190004CFDA /* HauntedHouse.plist */; };
+		82BACB6E1FC4ED860004CFDA /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB6D1FC4ED860004CFDA /* Adventure.swift */; };
+		82BACB701FC4EDC50004CFDA /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB6F1FC4EDC50004CFDA /* Credits.swift */; };
+		82BACB721FC4EDFB0004CFDA /* StoryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB711FC4EDFB0004CFDA /* StoryNode.swift */; };
+		82BACB741FC4EE230004CFDA /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB731FC4EE230004CFDA /* Connection.swift */; };
+		82BACB7B1FC4F1660004CFDA /* StoryNodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB7A1FC4F1660004CFDA /* StoryNodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		82BACB501FC4EA320004CFDA /* StoryAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BACB531FC4EA320004CFDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82BACB551FC4EA320004CFDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82BACB551FC4EA320004CFDA /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
 		82BACB581FC4EA320004CFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82BACB5A1FC4EA320004CFDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		82BACB5D1FC4EA320004CFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82BACB5F1FC4EA320004CFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BACB651FC4ED190004CFDA /* Harp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Harp.plist; sourceTree = "<group>"; };
+		82BACB661FC4ED190004CFDA /* Tiger.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tiger.plist; sourceTree = "<group>"; };
+		82BACB671FC4ED190004CFDA /* Stranger.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Stranger.plist; sourceTree = "<group>"; };
+		82BACB681FC4ED190004CFDA /* HauntedHouse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HauntedHouse.plist; sourceTree = "<group>"; };
+		82BACB6D1FC4ED860004CFDA /* Adventure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
+		82BACB6F1FC4EDC50004CFDA /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		82BACB711FC4EDFB0004CFDA /* StoryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryNode.swift; sourceTree = "<group>"; };
+		82BACB731FC4EE230004CFDA /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		82BACB7A1FC4F1660004CFDA /* StoryNodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryNodeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,38 @@
 		82BACB521FC4EA320004CFDA /* StoryAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				82BACB771FC4EF3B0004CFDA /* Model */,
 				82BACB531FC4EA320004CFDA /* AppDelegate.swift */,
-				82BACB551FC4EA320004CFDA /* ViewController.swift */,
+				82BACB551FC4EA320004CFDA /* RootTableViewController.swift */,
 				82BACB571FC4EA320004CFDA /* Main.storyboard */,
+				82BACB7A1FC4F1660004CFDA /* StoryNodeViewController.swift */,
 				82BACB5A1FC4EA320004CFDA /* Assets.xcassets */,
-				82BACB5C1FC4EA320004CFDA /* LaunchScreen.storyboard */,
 				82BACB5F1FC4EA320004CFDA /* Info.plist */,
+				82BACB791FC4EFA50004CFDA /* Supporting Files */,
 			);
 			path = StoryAdventure;
+			sourceTree = "<group>";
+		};
+		82BACB771FC4EF3B0004CFDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82BACB6D1FC4ED860004CFDA /* Adventure.swift */,
+				82BACB6F1FC4EDC50004CFDA /* Credits.swift */,
+				82BACB711FC4EDFB0004CFDA /* StoryNode.swift */,
+				82BACB731FC4EE230004CFDA /* Connection.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		82BACB791FC4EFA50004CFDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82BACB651FC4ED190004CFDA /* Harp.plist */,
+				82BACB681FC4ED190004CFDA /* HauntedHouse.plist */,
+				82BACB671FC4ED190004CFDA /* Stranger.plist */,
+				82BACB661FC4ED190004CFDA /* Tiger.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +163,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BACB5E1FC4EA320004CFDA /* LaunchScreen.storyboard in Resources */,
+				82BACB6B1FC4ED190004CFDA /* Stranger.plist in Resources */,
+				82BACB6C1FC4ED190004CFDA /* HauntedHouse.plist in Resources */,
 				82BACB5B1FC4EA320004CFDA /* Assets.xcassets in Resources */,
 				82BACB591FC4EA320004CFDA /* Main.storyboard in Resources */,
+				82BACB691FC4ED190004CFDA /* Harp.plist in Resources */,
+				82BACB6A1FC4ED190004CFDA /* Tiger.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BACB561FC4EA320004CFDA /* ViewController.swift in Sources */,
+				82BACB7B1FC4F1660004CFDA /* StoryNodeViewController.swift in Sources */,
+				82BACB561FC4EA320004CFDA /* RootTableViewController.swift in Sources */,
+				82BACB741FC4EE230004CFDA /* Connection.swift in Sources */,
+				82BACB721FC4EDFB0004CFDA /* StoryNode.swift in Sources */,
+				82BACB6E1FC4ED860004CFDA /* Adventure.swift in Sources */,
+				82BACB701FC4EDC50004CFDA /* Credits.swift in Sources */,
 				82BACB541FC4EA320004CFDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +198,6 @@
 				82BACB581FC4EA320004CFDA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		82BACB5C1FC4EA320004CFDA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82BACB5D1FC4EA320004CFDA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
